@@ -1,4 +1,4 @@
-/*General styles*/
+
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +12,14 @@ body {
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
+
   --icon-color: #8cbfea;
   --border-color: #8cbfea;
   --text-decoration-color: #8cbfea;
+=======
+  --icon-color: #6a737d;
+  --border-color: #ff9a0045;
+  --text-decoration-color: #ff9a00;
 }
 
 .container {
@@ -67,7 +72,6 @@ body {
     margin-right: 0;
   }
 }
-/*Contact info styles*/
 
 .contact-info__header,
 .contact-info__sub-header {
@@ -131,7 +135,7 @@ body {
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
-/*Intro and skills styles*/
+
 
 .intro {
   display: flex;
@@ -169,7 +173,6 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
-/*Experience and additional info styles*/
 
 .experiences {
   flex: 1 1 60%;
